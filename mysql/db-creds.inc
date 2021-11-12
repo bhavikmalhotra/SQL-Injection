@@ -3,6 +3,6 @@
 $dbuser ='root';
 $dbpass ='root';
 $dbname ="security";
-$host = 'db';
+$host = 'localhost';
 $dbname1 = "challenges";
 ?>
