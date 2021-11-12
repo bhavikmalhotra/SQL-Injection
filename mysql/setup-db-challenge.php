@@ -36,7 +36,7 @@ if (!$con)
 	else 
 		{echo "[*]...................Error creating database: " . mysql_error();echo "<br><br>\n";}
 
-include '../sql-connections/functions.php';
+include '../mysql/functions.php';
 
 
 
