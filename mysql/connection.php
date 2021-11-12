@@ -3,7 +3,7 @@
 //including the Mysql connect parameters.
 include("../mysql/db-creds.inc");
 @error_reporting(0);
-@$con = mysql_connect('127.0.0.1:3306',$dbuser,$dbpass);
+@$con = mysql_connect('127.0.0.1:3306','root','root');
 // Check connection
 if (!$con)
 {
