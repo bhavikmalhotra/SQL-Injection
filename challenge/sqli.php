@@ -1,6 +1,6 @@
 <html >
 <head>
-<title>Less-1 **Error Based- SQLI**</title>
+<title>Error Based- SQLI</title>
 </head>
 
 <p><strong>Welcome</strong>Please input the id as parameter with numeric value</p>
