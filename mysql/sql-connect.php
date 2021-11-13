@@ -2,12 +2,12 @@
 
 //including the Mysql connect parameters.
 include("../mysql/db-creds.inc");
-@error_reporting(0);
-@$con = mysql_connect('127.0.0.1:3306','root','root');
+error_reporting(0);
+$con = mysql_connect('127.0.0.1:3306','root','root');
 // Check connection
 if (!$con)
 {
-    echo "Failed to connect to MySQL: " . mysql_error();
+    echo "Failed to connect to mysqll: " . mysql_error();
 }
 
 
